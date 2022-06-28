@@ -14,6 +14,8 @@
             _characters = characters;
         }
 
+        public static Character Create(char c) => c == 'V' ? Character.Vowel : Character.Consonant;
+
         public bool Next()
         {
             _index++;
