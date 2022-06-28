@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharactersRefactored", "CharactersRefactored\CharactersRefactored.csproj", "{CAFBDFFC-1E49-4FC3-84EB-A93362E66271}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAFBDFFC-1E49-4FC3-84EB-A93362E66271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFBDFFC-1E49-4FC3-84EB-A93362E66271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFBDFFC-1E49-4FC3-84EB-A93362E66271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFBDFFC-1E49-4FC3-84EB-A93362E66271}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {588AE00A-1E60-4657-BC4C-A50A32B7F864}
+	EndGlobalSection
+EndGlobal
