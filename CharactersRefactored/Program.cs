@@ -1,9 +1,8 @@
 ﻿using CharactersRefactored;
 
 var pattern = args[0].ToUpper();
-var characters = pattern.Select(
-    c => c == 'V' ? Character.Vowel : Character.Consonant
-    ).ToArray();
+Character Create(char c) => c == 'V' ? Character.Vowel : Character.Consonant;
+var characters = pattern.Select(Create).ToArray();
 while (true)
 {
     Console.WriteLine(characters);
